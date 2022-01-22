@@ -1,6 +1,8 @@
 from sqlite3 import complete_statement
 from django.db import models
 from django.contrib.auth.models import User
+import matplotlib 
+matplotlib.use('Agg')
 # Create your models here.
 
 class Task(models.Model):
