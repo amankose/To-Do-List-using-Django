@@ -1,5 +1,4 @@
 from sqlite3 import complete_statement
-from tkinter import FALSE
 from django.shortcuts import render, redirect
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
